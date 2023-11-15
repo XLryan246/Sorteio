@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #ffff;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+  }
+  
+  .navbar a.active {
+    color: #aaa;
+    pointer-events: none;
+  }
+  
+  .cor-mega {
+    color: #209869;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .cor-loto {
+    color: #930089;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .cor-quina {
+    color: #260085;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  
+.cor-mega.active,
+.cor-loto.active,
+.cor-quina.active {
+  color: #aaa;
+  pointer-events: none;
+}
+
+  
+

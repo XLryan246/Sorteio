@@ -1,0 +1,81 @@
+#mega-bloco-principal {
+    margin-left: 50px;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0px;
+    font-family: Roboto;
+    display: flex;
+}
+
+#mega-bloco-loteria {
+    display:flex;
+}
+
+#mega-nome-loteria {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #209869;
+}
+
+#mega-bloco-estimativa {
+    width: 15rem;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+#mega-texto-estimativa {
+    font-size: 0.9rem;
+    color: #4c556c;   
+}
+
+#mega-valor-estimativa {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #209869;  
+}
+
+#mega-bloco-direita {
+    margin-left: 50px;
+}
+
+.mega-linha-bola {
+    display: flex;
+
+}
+
+
+.mega-ganhadores{
+    color: #143da4;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 15px 15px;
+}
+
+.mega-bola {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0px 15px 15px;
+    padding: 10px;
+    border-radius: 1.2rem;
+    color:#fff;
+    background-color: #209869;
+}
+
+#mega-texto-acumulou {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #0066b3;
+}
+
+.mega-data-concurso {
+    margin: 0 15px 15px;
+    font-size: 0.9rem;
+    color: #4c556c;  
+}
+
+.loading {
+    text-align: center;
+    margin: 50vh;
+}
